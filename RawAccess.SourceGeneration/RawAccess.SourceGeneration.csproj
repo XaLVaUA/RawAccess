@@ -11,7 +11,7 @@
 		<DevelopmentDependency>true</DevelopmentDependency>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<PackageId>RawAccess.SourceGeneration</PackageId>
-		<Version>1.0.0</Version>
+		<Version>2.0.0</Version>
 		<Authors>Yaroslav Nozhenko</Authors>
 		<Description>A C# source generator that automatically produces static helper classes for accessing and updating public fields and properties of classes, structs, and records.</Description>
 		<PackageTags>source-generator;codegen;access;raw-access</PackageTags>
