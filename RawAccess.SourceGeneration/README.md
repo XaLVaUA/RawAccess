@@ -47,10 +47,10 @@ public static class MyClassRawAccess
 {
     public static MyClass<TA, TB, TC> GetMyClass<TA, TB, TC>(string myString, TA a, TB b, TC c) { ... }
 
-    public static TA GetA<TA, TB, TC>(MyClass<TA, TB, TC> instance) => instance.A;
-    public static TB GetB<TA, TB, TC>(MyClass<TA, TB, TC> instance) => instance.B;
-    public static MyClass<TA, TB, TC> WithB<TA, TB, TC>(MyClass<TA, TB, TC> instance, TB value) { ... }
-    public static MyClass<TA, TB, TC> WithC<TA, TB, TC>(MyClass<TA, TB, TC> instance, TC value) { ... }
+    public static TA GetA<TA, TB, TC>(MyClass<TA, TB, TC> instance) where ... => instance.A;
+    public static TB GetB<TA, TB, TC>(MyClass<TA, TB, TC> instance) where ... => instance.B;
+    public static MyClass<TA, TB, TC> WithB<TA, TB, TC>(MyClass<TA, TB, TC> instance, TB value) where ... { ... }
+    public static MyClass<TA, TB, TC> WithC<TA, TB, TC>(MyClass<TA, TB, TC> instance, TC value) where ... { ... }
 }
 ```
 
