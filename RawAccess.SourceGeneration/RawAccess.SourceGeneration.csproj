@@ -15,7 +15,7 @@
 		<Authors>Yaroslav Nozhenko</Authors>
 		<Description>A C# source generator that automatically produces static helper classes for accessing and updating public fields and properties of classes, structs, and records.</Description>
 		<PackageTags>source-generator;codegen;access;raw-access</PackageTags>
-		<RepositoryUrl></RepositoryUrl>
+		<RepositoryUrl>https://github.com/XaLVaUA/RawAccess</RepositoryUrl>
 		<PackageLicenseExpression>Unlicense</PackageLicenseExpression>
 		<IncludeSymbols>false</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
