@@ -19,6 +19,7 @@
 		<PackageLicenseExpression>Unlicense</PackageLicenseExpression>
 		<IncludeSymbols>false</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -27,6 +28,10 @@
 
 	<ItemGroup>
 		<None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath="/" />
 	</ItemGroup>
 
 </Project>
